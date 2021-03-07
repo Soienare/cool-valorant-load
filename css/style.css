@@ -1,0 +1,31 @@
+.valoimg{
+    background-image: url("https://images.hdqwalls.com/wallpapers/valorant-logo-red-4k-tt.jpg");
+    height: 100%;
+    width: 100%;
+    transition: 3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: valorant 2s infinite;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+}
+@keyframes valorant{
+    0%{
+        background-image: url("https://images.hdqwalls.com/wallpapers/valorant-logo-red-4k-tt.jpg");
+    transition: 3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    50%{
+        background-image: url("https://images.wallpapersden.com/image/download/valorant-4k-logo_bGVma22UmZqaraWkpJRobWllrWdma2U.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    }
+    100%{
+        background-image: url("https://images.hdqwalls.com/wallpapers/valorant-logo-red-4k-tt.jpg");
+    transition: 3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
